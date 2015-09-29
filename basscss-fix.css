@@ -1,0 +1,24 @@
+.btn {
+  line-height: 1rem;
+  position: relative;
+  transition: box-shadow 0.25s ease-out; }
+  .btn:after {
+    transition: opacity 0.25s ease-out;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-color: currentcolor;
+    opacity: 0; }
+  .btn:focus {
+    box-shadow: none; }
+    .btn:focus:after {
+      opacity: 0.2; }
+  .btn:active:after, .btn:hover:after {
+    transition: opacity 0.25s ease-out;
+    opacity: 0.1; }

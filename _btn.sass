@@ -1,0 +1,29 @@
+.btn
+  line-height: 1rem
+  position: relative
+  transition: box-shadow .25s ease-out
+
+  &:after
+    transition: opacity .25s ease-out
+    content: ''
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    width: 100%
+    height: 100%
+    display: block
+    position: absolute
+    background-color: currentcolor
+    opacity: 0
+
+  &:focus
+    box-shadow: none
+
+    &:after
+      opacity: 0.2
+
+  &:active:after,
+  &:hover:after
+    transition: opacity .25s ease-out
+    opacity: .1

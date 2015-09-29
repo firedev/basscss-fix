@@ -1,0 +1,23 @@
+{
+  "name": "basscss-fix",
+  "version": "0.0.1",
+  "authors": [
+    "Nick Ostrovsky <nick@firedev.com>"
+  ],
+  "description": "Fixes for BASSCSS",
+  "main": "basscss-fix.sass",
+  "moduleType": [],
+  "keywords": [
+    "basscss",
+    "sass"
+  ],
+  "license": "MIT",
+  "homepage": "firedev.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
