@@ -16,7 +16,7 @@ end
 ```
 
 ```sass
-# application.sass
+// application.sass
 @import basscss-fix
 ```
 
