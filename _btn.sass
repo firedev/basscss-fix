@@ -2,11 +2,12 @@
   line-height: 1
   vertical-align: inherit
   position: relative
+  white-space: nowrap
   transition: box-shadow .25s ease-out
 
   &:after
-    transition: opacity .25s ease-out
     content: ''
+    opacity: 0
     top: 0
     left: 0
     right: 0
@@ -16,7 +17,7 @@
     display: block
     position: absolute
     background-color: currentcolor
-    opacity: 0
+    transition: opacity .25s ease-out
 
   &:focus
     box-shadow: none
@@ -26,5 +27,5 @@
 
   &:active:after,
   &:hover:after
-    transition: opacity .25s ease-out
     opacity: .1
+    transition: opacity .25s ease-out
