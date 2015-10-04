@@ -25,6 +25,20 @@
     opacity: 0.1;
     transition: opacity 0.25s ease-out; }
 
+.horizontal-rounded {
+  border-radius: 3px; }
+  .horizontal-rounded > *:first-child {
+    border-radius: 3px 0 0 3px; }
+  .horizontal-rounded > *:last-child {
+    border-radius: 0 3px 3px 0; }
+
+.vertical-rounded {
+  border-radius: 3px; }
+  .vertical-rounded > *:first-child {
+    border-radius: 3px 3px 0 0; }
+  .vertical-rounded > *:last-child {
+    border-radius: 0 0 3px 3px; }
+
 .top-100 {
   top: 100%; }
 
