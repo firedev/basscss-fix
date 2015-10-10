@@ -75,3 +75,28 @@
 
 .mn1 {
   margin: -0.5rem -0.5rem; }
+
+.pr2 {
+  padding-right: 1rem; }
+
+.pl2 {
+  padding-left: 1rem; }
+
+.mln2 {
+  margin-left: -1rem; }
+
+.mrn2 {
+  margin-right: -1rem; }
+
+.mtn2 {
+  margin-top: -1rem; }
+
+.mbn2 {
+  margin-bottom: -1rem; }
+
+.myn2 {
+  margin-top: -1rem;
+  margin-bottom: -1rem; }
+
+.mn2 {
+  margin: -1rem -1rem; }
