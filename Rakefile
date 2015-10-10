@@ -11,12 +11,13 @@ task :deploy do
 
   message = "Updated at #{Time.now.utc}"
   puts "## Commiting: #{message}"
+  system "git add ."
   system "git commit -m \"#{message}\""
 
   puts '## Pushing to Bower'
   # system 'bower version patch'
-  system 'git push'
-  system 'git push --tags'
+  system "git push"
+  system "git push --tags"
 
   puts '## Deploy Complete!'
 end
