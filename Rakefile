@@ -5,7 +5,7 @@ task :deploy do
   puts '## Deploying'
 
   puts '## Generating CSS'
-  system 'sass basscss-fix.sass > basscss-fix.css'
+  system 'sass compile_me.sass > basscss-fix.css'
 
   system 'git add -A'
 
