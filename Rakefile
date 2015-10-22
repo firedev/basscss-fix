@@ -14,7 +14,7 @@ task :deploy do
   system "git commit -m \"#{message}\""
 
   puts '## Pushing to Bower'
-  # system 'bower version patch'
+  system 'bower version patch'
   system "git push"
   system "git push --tags"
 
