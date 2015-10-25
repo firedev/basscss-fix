@@ -2402,7 +2402,7 @@ textarea {
   margin-bottom: -0.5rem; }
 
 .mn1 {
-  margin: -0.5rem -0.5rem; }
+  margin: -1rem; }
 
 .pr2 {
   padding-right: 1rem; }
@@ -2427,4 +2427,54 @@ textarea {
   margin-bottom: -1rem; }
 
 .mn2 {
-  margin: -1rem -1rem; }
+  margin: -2rem; }
+
+.pr3 {
+  padding-right: 2rem; }
+
+.pl3 {
+  padding-left: 2rem; }
+
+.mln3 {
+  margin-left: -2rem; }
+
+.mrn3 {
+  margin-right: -2rem; }
+
+.mtn3 {
+  margin-top: -2rem; }
+
+.mbn3 {
+  margin-bottom: -2rem; }
+
+.myn3 {
+  margin-top: -2rem;
+  margin-bottom: -2rem; }
+
+.mn3 {
+  margin: -4rem; }
+
+.pr4 {
+  padding-right: 4rem; }
+
+.pl4 {
+  padding-left: 4rem; }
+
+.mln4 {
+  margin-left: -4rem; }
+
+.mrn4 {
+  margin-right: -4rem; }
+
+.mtn4 {
+  margin-top: -4rem; }
+
+.mbn4 {
+  margin-bottom: -4rem; }
+
+.myn4 {
+  margin-top: -4rem;
+  margin-bottom: -4rem; }
+
+.mn4 {
+  margin: -8rem; }
