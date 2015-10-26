@@ -2403,6 +2403,10 @@ textarea {
 .mln1 {
   margin-left: -0.5rem; }
 
+.my1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; }
+
 .myn1 {
   margin-top: -0.5rem;
   margin-bottom: -0.5rem; }
@@ -2433,6 +2437,10 @@ textarea {
 
 .mln2 {
   margin-left: -1rem; }
+
+.my2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
 
 .myn2 {
   margin-top: -1rem;
@@ -2465,6 +2473,10 @@ textarea {
 .mln3 {
   margin-left: -2rem; }
 
+.my3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
 .myn3 {
   margin-top: -2rem;
   margin-bottom: -2rem; }
@@ -2495,6 +2507,10 @@ textarea {
 
 .mln4 {
   margin-left: -4rem; }
+
+.my4 {
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
 
 .myn4 {
   margin-top: -4rem;
