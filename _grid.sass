@@ -1,6 +1,31 @@
+$space-1: 0.5rem !default
+$space-2: 1rem !default
+$space-3: 2rem !default
+$space-4: 4rem !default
+
 $small: 40em
 $medium: 52em
 $large: 64em
 $breakpoint-sm: '(min-width: #{$small})' !default
 $breakpoint-md: '(min-width: #{$medium})' !default
 $breakpoint-lg: '(min-width: #{$large})' !default
+
+.gutter, .gutter1
+  margin-left: -$space-1
+  margin-right: -$space-1
+  .col,
+  .sm-col,
+  .md-col,
+  .lg-col,
+    padding-left: $space-1
+    padding-right: $space-1
+
+.gutter2
+  margin-left: -$space-2
+  margin-right: -$space-2
+  .col,
+  .sm-col,
+  .md-col,
+  .lg-col,
+    padding-left: $space-2
+    padding-right: $space-2
