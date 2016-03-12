@@ -198,7 +198,8 @@ hr {
 input[type="password"],
 input[type="number"],
 input[type="email"],
-textarea {
+textarea,
+select {
   border-style: solid;
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.125);
@@ -209,12 +210,14 @@ input[type="password"]:focus,
 input[type="number"]:focus,
 input[type="email"]:focus,
 textarea:focus,
+select:focus,
 .field.is-focused,
 input.is-focused[type="text"],
 input.is-focused[type="password"],
 input.is-focused[type="number"],
 input.is-focused[type="email"],
-textarea.is-focused {
+textarea.is-focused,
+select.is-focused {
   outline: none;
   border-color: #0074d9;
   box-shadow: 0 0 0 2px color(#0074d9 a(0.5)); }
@@ -224,12 +227,14 @@ input[type="password"]:disabled,
 input[type="number"]:disabled,
 input[type="email"]:disabled,
 textarea:disabled,
+select:disabled,
 .field.is-disabled,
 input.is-disabled[type="text"],
 input.is-disabled[type="password"],
 input.is-disabled[type="number"],
 input.is-disabled[type="email"],
-textarea.is-disabled {
+textarea.is-disabled,
+select.is-disabled {
   background-color: rgba(0, 0, 0, 0.125);
   opacity: .5; }
 
@@ -238,19 +243,22 @@ input[type="password"]:read-only:not(select),
 input[type="number"]:read-only:not(select),
 input[type="email"]:read-only:not(select),
 textarea:read-only:not(select),
+select:read-only:not(select),
 .field.is-read-only,
 input.is-read-only[type="text"],
 input.is-read-only[type="password"],
 input.is-read-only[type="number"],
 input.is-read-only[type="email"],
-textarea.is-read-only {
+textarea.is-read-only,
+select.is-read-only {
   background-color: rgba(0, 0, 0, 0.125); }
 
 .field.is-success, input.is-success[type="text"],
 input.is-success[type="password"],
 input.is-success[type="number"],
 input.is-success[type="email"],
-textarea.is-success {
+textarea.is-success,
+select.is-success {
   border-color: #2ecc40; }
 
 .field.is-success:focus, input.is-success[type="text"]:focus,
@@ -258,19 +266,22 @@ input.is-success[type="password"]:focus,
 input.is-success[type="number"]:focus,
 input.is-success[type="email"]:focus,
 textarea.is-success:focus,
+select.is-success:focus,
 .field.is-success.is-focused,
 input.is-success.is-focused[type="text"],
 input.is-success.is-focused[type="password"],
 input.is-success.is-focused[type="number"],
 input.is-success.is-focused[type="email"],
-textarea.is-success.is-focused {
+textarea.is-success.is-focused,
+select.is-success.is-focused {
   box-shadow: 0 0 0 2px color(#2ecc40 a(0.5)); }
 
 .field.is-warning, input.is-warning[type="text"],
 input.is-warning[type="password"],
 input.is-warning[type="number"],
 input.is-warning[type="email"],
-textarea.is-warning {
+textarea.is-warning,
+select.is-warning {
   border-color: #ffdc00; }
 
 .field.is-warning:focus, input.is-warning[type="text"]:focus,
@@ -278,12 +289,14 @@ input.is-warning[type="password"]:focus,
 input.is-warning[type="number"]:focus,
 input.is-warning[type="email"]:focus,
 textarea.is-warning:focus,
+select.is-warning:focus,
 .field.is-warning.is-focused,
 input.is-warning.is-focused[type="text"],
 input.is-warning.is-focused[type="password"],
 input.is-warning.is-focused[type="number"],
 input.is-warning.is-focused[type="email"],
-textarea.is-warning.is-focused {
+textarea.is-warning.is-focused,
+select.is-warning.is-focused {
   box-shadow: 0 0 0 2px color(#ffdc00 a(0.5)); }
 
 .field:invalid, input[type="text"]:invalid,
@@ -291,12 +304,14 @@ input[type="password"]:invalid,
 input[type="number"]:invalid,
 input[type="email"]:invalid,
 textarea:invalid,
+select:invalid,
 .field.is-error,
 input.is-error[type="text"],
 input.is-error[type="password"],
 input.is-error[type="number"],
 input.is-error[type="email"],
-textarea.is-error {
+textarea.is-error,
+select.is-error {
   border-color: #ff4136; }
 
 .field:invalid:focus, input[type="text"]:invalid:focus,
@@ -304,24 +319,28 @@ input[type="password"]:invalid:focus,
 input[type="number"]:invalid:focus,
 input[type="email"]:invalid:focus,
 textarea:invalid:focus,
+select:invalid:focus,
 .field:invalid.is-focused,
 input[type="text"]:invalid.is-focused,
 input[type="password"]:invalid.is-focused,
 input[type="number"]:invalid.is-focused,
 input[type="email"]:invalid.is-focused,
 textarea:invalid.is-focused,
+select:invalid.is-focused,
 .field.is-error:focus,
 input.is-error[type="text"]:focus,
 input.is-error[type="password"]:focus,
 input.is-error[type="number"]:focus,
 input.is-error[type="email"]:focus,
 textarea.is-error:focus,
+select.is-error:focus,
 .field.is-error.is-focused,
 input.is-error.is-focused[type="text"],
 input.is-error.is-focused[type="password"],
 input.is-error.is-focused[type="number"],
 input.is-error.is-focused[type="email"],
-textarea.is-error.is-focused {
+textarea.is-error.is-focused,
+select.is-error.is-focused {
   box-shadow: 0 0 0 2px color(#ff4136 a(0.5)); }
 
 /* Basscss Defaults */
@@ -2319,13 +2338,15 @@ input[type="text"],
 input[type="password"],
 input[type="number"],
 input[type="email"],
-textarea {
+textarea,
+select {
   width: 100%; }
   .field_with_errors input[type="text"], .field_with_errors
   input[type="password"], .field_with_errors
   input[type="number"], .field_with_errors
   input[type="email"], .field_with_errors
-  textarea {
+  textarea, .field_with_errors
+  select {
     border-color: #ff4136; }
 
 .btn, .button, button {
